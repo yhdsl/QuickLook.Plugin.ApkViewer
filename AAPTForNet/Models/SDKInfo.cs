@@ -26,7 +26,7 @@ namespace AAPTForNet.Models {
             "Jelly Bean",
             "Jelly Bean",
             "KitKat",
-            "Unknown",  // API level 20
+            "KitKat Wear",  // API level 20
             "Lollipop",
             "Lollipop",
             "Marshmallow",
@@ -35,11 +35,14 @@ namespace AAPTForNet.Models {
             "Oreo",
             "Oreo",
             "Pie",
-            "Android10",
-            "Android11", // API level 30
-            "Android12",
-            "Android12L",
-            "Android13"
+            "Quince Tart",
+            "Red Velvet Cake", // API level 30
+            "Snow Cone",
+            "Snow Cone v2",
+            "Tiramisu",
+            "Upside Down Cake",
+            "Vanilla Ice Cream",
+            "Baklava"
         };
 
         private static readonly string[] AndroidVersionCodes = {
@@ -63,7 +66,7 @@ namespace AAPTForNet.Models {
             "4.2",
             "4.3",
             "4.4",
-            "Unknown",  // API level 20
+            "4.4W",  // API level 20
             "5.0",
             "5.1",
             "6.0",
@@ -76,7 +79,10 @@ namespace AAPTForNet.Models {
             "11",    // API level 30
             "12",
             "12",
-            "13"
+            "13",
+            "14",
+            "15",
+            "16"
         };
 
         public string APILever { get; }
